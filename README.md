@@ -4,4 +4,4 @@ Criei esse site simples com a intenção de praticar HTML e CSS.
 
 Você pode acessar 👉 https://lilianesoares1.github.io/site-02-filmes/
 
-Imagem utilizada no Site esta em: Créditos de Imagem
+Imagens e Vídeos utilizados no Site esta em: Créditos de Imagem e Vídeos
