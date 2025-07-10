@@ -52,23 +52,5 @@
 </figure>        
 </div>
 
-function ajustarLayoutResponsivo() {
-  const container = document.querySelector('.filmes-container');
-  
-  if (window.innerWidth <= 768) {
-    container.style.flexDirection = 'column';
-    container.style.alignItems = 'center';
-  } else {
-    container.style.flexDirection = 'row';
-    container.style.alignItems = 'initial';
-  }
-}
-
-// Rodar ao abrir a página
-ajustarLayoutResponsivo();
-
-// Rodar sempre que redimensionar a janela
-window.addEventListener('resize', ajustarLayoutResponsivo);
-    
 </body>
 </html>
