@@ -127,51 +127,34 @@ body{
 }
 
 @media screen and (max-width: 600px) {
-  img {
-    width: 90%;
-    height: auto;
+  .filme-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
-  h1 {
-    font-size: 1.8rem;
+  .filme {
+    width: 90%;
+    margin-bottom: 30px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
   }
 
   h2 {
     font-size: 1.2rem;
+    text-align: center;
   }
 
-  ul, ol {
-    max-width: 90%;
-    padding: 15px;
-  }
-
-  body {
+  .trailer {
+    width: 80%;
     padding: 10px;
-  }
-
-    @media screen and (max-width: 600px) {
-  img {
-    width: 90%;
-    height: auto;
-  }
-
-  h1 {
-    font-size: 1.8rem;
-  }
-
-  h2 {
-    font-size: 1.2rem;
-  }
-
-  ul, ol {
-    max-width: 90%;
-    padding: 15px;
-  }
-
-  body {
-    padding: 10px;
+    font-size: 0.95rem;
   }
 }
+
 
 
 
