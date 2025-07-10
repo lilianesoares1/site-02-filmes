@@ -126,7 +126,7 @@ body{
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) 
   .filmes-container {
     display: flex;
     flex-direction: column;
