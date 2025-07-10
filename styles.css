@@ -120,8 +120,10 @@ p{
 body {
   background-color: #ffe6f0;
   box-sizing: border-box;
-  overflow: hidden; 
+  margin: 0;
+  padding: 0;
 }
+
 
 
 
