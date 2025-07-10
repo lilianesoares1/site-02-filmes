@@ -148,6 +148,29 @@ body{
   body {
     padding: 10px;
   }
+
+    @media screen and (max-width: 600px) {
+  img {
+    width: 90%;
+    height: auto;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  ul, ol {
+    max-width: 90%;
+    padding: 15px;
+  }
+
+  body {
+    padding: 10px;
+  }
 }
 
 
